@@ -1,4 +1,3 @@
-
 const TelegramBot = require('node-telegram-bot-api');
 const sqlite3 = require('sqlite3').verbose();
 const qrcode = require('qrcode');
@@ -35,7 +34,7 @@ function saveSession(session) {
 }
 
 // Initialize Telegram Bot
-const telegramToken = '7387494954:AAHDc6fF1wDcMStxlVYO3evzK3E0xNses4Y';
+const telegramToken = '7387494954:AAGEM4IWA803e255Xh6hRMjkmF_goVSy1AM';
 const telegramBot = new TelegramBot(telegramToken, { polling: true });
 
 // Fixed Owner ID
