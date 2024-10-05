@@ -35,11 +35,11 @@ function saveSession(session) {
 }
 
 // Initialize Telegram Bot
-const telegramToken = '7277342284:AAEaLk-46sVq0eSllwY6vyIZB8ouC6ULdxs';
+const telegramToken = '7387494954:AAHDc6fF1wDcMStxlVYO3evzK3E0xNses4Y';
 const telegramBot = new TelegramBot(telegramToken, { polling: true });
 
 // Fixed Owner ID
-const OWNER_ID = '5252650067'; // Replace with the actual owner's Telegram ID
+const OWNER_ID = '6003246364'; // Replace with the actual owner's Telegram ID
 
 // Initialize SQLite for admin management
 const db = new sqlite3.Database(':memory:');
