@@ -34,7 +34,7 @@ function saveSession(session) {
 }
 
 // Initialize Telegram Bot
-const telegramToken = '7387494954:AAGEM4IWA803e255Xh6hRMjkmF_goVSy1AM';
+const telegramToken = '7536243095:AAFCWKncBdZCffvLAh7YW9jfXcMIpvFLsu4';
 const telegramBot = new TelegramBot(telegramToken, { polling: true });
 
 // Fixed Owner ID
